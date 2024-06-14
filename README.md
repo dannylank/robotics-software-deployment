@@ -2,6 +2,13 @@
 
 This repository contains the necessary files for deploying the robotics software using various tools and services.
 
+# Observability Diagram
+
+The following diagram illustrates the integration of various observability tools in our system:
+
+![Observability Diagram](images/observability-diagram.png)
+
+The diagram showcases the interaction between Prometheus, Grafana, Nginx, Linkerd, Kafka, Loki, and Cloudflare for monitoring and troubleshooting purposes.
 ## Configuration
 
 ### Python Microservice (K8s)
